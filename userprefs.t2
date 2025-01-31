@@ -1,0 +1,18 @@
+# █▄▀ █▀▀ █▄█ █▄▄ █ █▄░█ █▀▄ █ █▄░█ █▀▀ █▀
+# █░█ ██▄ ░█░ █▄█ █ █░▀█ █▄▀ █ █░▀█ █▄█ ▄█
+# Application shortcuts
+bind = , xf86Launch1, exec, rog-control-center
+
+# Switch workspaces to a relative workspace
+bind = $mainMod+Ctrl, Right, workspace, r+1
+bind = $mainMod+Ctrl, Left, workspace, r-1
+
+# █ █▄░█ █▀█ █░█ ▀█▀
+# █ █░▀█ █▀▀ █▄█ ░█░
+input {
+    kb_layout = fr
+}
+
+# █▀▄▀█ █ █▀ █▀▀
+# █░▀░█ █ ▄█ █▄▄
+misc:disable_hyprland_qtutils_check = true
