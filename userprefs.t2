@@ -1,11 +1,15 @@
 # █▄▀ █▀▀ █▄█ █▄▄ █ █▄░█ █▀▄ █ █▄░█ █▀▀ █▀
 # █░█ ██▄ ░█░ █▄█ █ █░▀█ █▄▀ █ █░▀█ █▄█ ▄█
 # Application shortcuts
-bind = , xf86Launch1, exec, rog-control-center
+bind = $mainMod, D, exec, discord
+bind = $mainMod+Ctrl, F, exec, zen-browser
+bind = $mainMod, K, exec, kitty
+bind = , F4, exec, rofi -show emoji #install wtype
 
-# Switch workspaces to a relative workspace
-bind = $mainMod+Ctrl, Right, workspace, r+1
-bind = $mainMod+Ctrl, Left, workspace, r-1
+# Application shortcuts rog flow x13
+bind = , F2, exec, asusctl --prev-kbd-bright
+bind = , F3, exec, asusctl --next-kbd-bright
+bind = , xf86Launch1, exec, rog-control-center
 
 # █ █▄░█ █▀█ █░█ ▀█▀
 # █ █░▀█ █▀▀ █▄█ ░█░
